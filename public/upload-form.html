@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload Test</title>
+</head>
+<body>
+    <h2>Test Image Upload</h2>
+    <form action="http://127.0.0.1:8000/api/v1/profile/upload-image" method="POST" enctype="multipart/form-data">
+        <input type="file" name="image" accept="image/*">
+        <br><br>
+        <input type="submit" value="Upload">
+    </form>
+</body>
+</html>
